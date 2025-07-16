@@ -1,8 +1,8 @@
 # stonk-bot
 
 Bot to fetch stock price and give an overview of stock prices for the day.
-Inspired by this bot: https://github.com/seanluong/stonk-bot
-Based on this guide: https://medium.com/sltc-sean-learns-to-code/hosting-a-discord-bot-on-google-cloud-ca0dea5df988
+- Inspired by this bot: https://github.com/seanluong/stonk-bot
+- Based on this guide: https://medium.com/sltc-sean-learns-to-code/hosting-a-discord-bot-on-google-cloud-ca0dea5df988
 
 ## Installation guide
 
@@ -31,20 +31,20 @@ Now you can run the bot using the following command
 
 ## useful commands for hosting within a linux box:
 
-tmux (headless client hosting)
-tmux new -s bot - new bot
-python3 main.py - run proj
-Ctrl + B, then D - detach from session
-tmux attach -t bot - reattach to session
-tmux ls - list all sessions
-tmux kill-session -t bot - kill session called bot
+- tmux (headless client hosting)
+- tmux new -s bot - new bot
+- python3 main.py - run proj
+- Ctrl + B, then D - detach from session
+- tmux attach -t bot - reattach to session
+- tmux ls - list all sessions
+- tmux kill-session -t bot - kill session called bot
 
-venv (virtual env)
-python3 -m venv venv - establishes/installs venv
-source venv/bin/activate - active venv
-pip install -r requirements.txt - uses req.txt to install dependancies
-which python - will show which py version is running, expected value within venv is something like /home/usr/mypy/venv/bin/py
-exit - leaves venv
+- venv (virtual env)
+- python3 -m venv venv - establishes/installs venv
+- source venv/bin/activate - active venv
+- pip install -r requirements.txt - uses req.txt to install dependancies
+- which python - will show which py version is running, expected value within venv is something like /home/usr/mypy/venv/bin/py
+- exit - leaves venv
 
 ## the discord commands:
 
