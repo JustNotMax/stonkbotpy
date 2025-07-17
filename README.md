@@ -9,6 +9,7 @@ Bot to fetch stock price and give an overview of stock prices for the day.
 First, clone the code in this repo to your local machine and install all the needed requirements.
 
 ```
+> python -m pip install --upgrade pip setuptools wheel - this is to make sure your setup wheels isnt borked.
 > pip3 install -r requirements.txt
 ```
 
